@@ -1,4 +1,4 @@
-package ejercicio2204;
+package ejercicio2402;
 
 public class Foto {
     private Integer id;
