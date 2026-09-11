@@ -10,16 +10,16 @@ public class Main {
       Foto foto3 = new Foto(3,"playa");
 
       albumNuevo.agregarFoto(foto1);
-      System.out.println("--- Contenido del Álbum ---");
+      System.out.println(" Contenido del Álbum ");
       for (Foto f : albumNuevo.getFotos()) {
         System.out.println("ID: " + f.getId() + " - Descripción: " + f.getDescripcion());
       }
       List<Foto> nuevasFotos = List.of(foto2, foto3);
       albumNuevo.agregarColeccionFotos(nuevasFotos);
 
-      System.out.println("--- Contenido del Álbum ---");
+      System.out.println(" Contenido del Álbum ");
       for (Foto f : albumNuevo.getFotos()) {
-          System.out.println("ID: " + f.getId() + " - Descripción: " + f.getDescripcion());
+          System.out.println("Id: " + f.getId() + " - Descripción: " + f.getDescripcion());
       }
     }
   }
