@@ -89,4 +89,12 @@ public class Temperature {
             return -999;
         }
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Temperature{");
+        sb.append("tempInicialC=").append(tempInicialC);
+        sb.append('}');
+        return sb.toString();
+    }
 }
